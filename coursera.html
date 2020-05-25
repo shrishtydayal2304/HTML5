@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 PROJECT</title>
+    <style>
+        body {
+            background-color: #f0ed39;
+        }
+
+
+        .box {
+            color: #f714b3;
+            text-shadow: 2px 2px orange;
+
+
+            align-items: center;
+
+            font-size: larger;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+            text-align: center;
+
+
+        }
+
+        .box:hover {
+            color: rgb(105, 199, 236);
+
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight: bolder;
+
+        }
+
+        div.container {
+            display: flex;
+            text-decoration: underline;
+            font-size: medium;
+            font-family: serif;
+            padding: 2px;
+            margin: 4px 4px;
+        }
+        
+
+        #main {
+            color: red;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        a:hover {
+            color: yellowgreen;
+        }
+
+        
+
+        #id li {
+            color: chartreuse cursor: pointer;
+        }
+
+        li:hover {
+            color: crimson;
+            cursor: pointer;
+
+        }
+
+        h2 {
+            color: green;
+            text-overflow: ellipsis;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+
+
+        #about {
+            color: brown;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            padding: 2px;
+            cursor: pointer;
+        }
+
+        #para {
+            color: lightseagreen;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .nav {
+            padding: 24px;
+            color: orangered;
+            font-style: italic;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        strong {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h1 class="box">Welcome, Shrishty Dayal</h1>
+    <div class="nav">
+        LINKS TO VARIOUS USEFULL WEBSITES
+        <ul id="main">
+            <li>
+                <a href="http://www.intro-webdesign.com/images/newlogo.png" target="_blank">One</a>
+
+            </li>
+            <li>
+                <a href="http://intro-webdesign.com/projectdescription.html" target="_blank">Two</a>
+
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">THREE</a>
+            </li>
+            <li>
+                <a href="https://www.covid19india.org/" target="_blank"> More about Covid-19</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="id">
+        <h2>Favorite Foods</h2>
+
+        <ul>
+            <li>Maggie</li>
+            <li>Momos</li>
+            <li>Pizza</li>
+            <li>Choclate cake</li>
+        </ul>
+
+        <!-- <progress value = "65" max = "100"> -->
+
+
+    </div>
+    <div id="ach">
+        <h2>Achievements</h2>
+        <ul>
+
+            <li1>Progress in this course
+
+                <progress value="90" max="100">
+
+            </li1><br>
+            <li2>Progress in this specialization
+                <progress value="70" max="100"></progress>
+
+            </li2><br>
+            <li3>Progress in html5
+                <progress value="70" max="100"></progress>
+            </li3>
+
+        </ul>
+    </div>
+    <div class="me" id="about">
+        <h2>More About HTML5</h2>
+        <details>
+            <summary>HTML5</summary>
+            <p id="para">HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
+                It was the fifth and last major version of HTML that is a World Wide Web Consortium recommendation.</p>
+        </details>
+    </div>
+    <hr>
+    <footer>
+        <img src="img/newlogo.png" alt="not found" width="30%" height="50px">
+        This page was created by <strong>Shrishty Dayal</strong>. To learn more about web design ,
+        visit <br>
+        <a href="http://www.intro-webdesign.com" target="_blank">Intro to Web design</a>
+    </footer>
+
+</body>
+
+</html>
