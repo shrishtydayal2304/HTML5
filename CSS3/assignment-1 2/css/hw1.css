@@ -1,0 +1,32 @@
+header{
+ 
+  background-color: rgb(169,169,169);
+  margin:15px;
+ 
+  
+
+}
+h1{
+  text-align:center;
+  text-transform: uppercase;
+  color:rgba(255, 255, 255, 1) 
+   
+}
+section{
+  background-color:rgb(128,128,128);
+  display:block;
+  margin:15px;
+  width 100%;
+  
+  
+}
+
+h2{
+  font-weight:bold;
+  font-family: Time New Roman;
+  color:rgb(0,0,128);
+  text-transform:uppercase;
+}
+img {
+    display: none;
+  }
