@@ -1,43 +1,68 @@
-h1{
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
-  font-size: 250%;
-}
-body{
- background-color: #ffffff;
-}
 header{
- margin: 10px 10px 0px 10px;
- padding: 5px 5px 15px;
- background-color: #ffffff;
- background-image:url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
- opacity: 0.8;
+ 
+  background-color: rgb(169,169,169);
+  margin:15px;
+  background-image: url("../images/flywheel.jpg");
+  background-repeat: no-repeat;
+    background-size: 100%; 
+    padding: 20px;
+  
+  
+
 }
 nav{
- text-align: center;
+  text-align: center;
 }
-nav>a{
- display: inline-block;
- text-decoration: none;
- margin: 10px;
- padding: 5px;
- color: #000000;
- background-color:#ffffff;
- font-size: 125%;
- border-radius: 5px;
- opacity: 0.65;}
+nav a{
+  background-color:rgb(128,128,128);
+  margin:15px;
+  
+  padding:20px;
+  border-radius: 10px ;
+  display: inline-block;
+  color:black;
+}
+.active{
+  background-color: seagreen;
+}
+h1{
+  text-align:center;
+  text-transform: uppercase;
+  color:rgba(255, 255, 255, 1) 
+   
+}
+section{
+  background-color:rgb(128,128,128);
+  display:block;
+  margin:15px;
+  width 100%;
+  
+  
+}
 
-nav>a:hover{
- opacity: 1;
+h2{
+  font-weight:bold;
+  font-family: Time New Roman;
+  color:rgb(0,0,128);
+  text-transform:uppercase;
 }
-nav>a.active{
- opacity: 1;
+.left{
+  background-color: chartreuse;
+  width: 42%
+  float:left;
+  padding:1% 0;
 }
-table,th,td{
-
- border: 1px solid #ffffff;
+.left img{
+  border: solid 3px black;
+  width: 75%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
+img {
+    display: none;
+  }
 table{
  margin: 0 auto;
  table-layout: auto;
