@@ -1,0 +1,142 @@
+ header{
+ 
+  background-color: rgb(169,169,169);
+  margin:15px;
+  background-image: url("../images/flywheel.jpg");
+  background-repeat: no-repeat;
+    background-size: 100%; 
+    padding: 20px;
+  
+  
+
+}
+nav{
+  text-align: center;
+}
+nav a{
+  background-color:rgb(128,128,128);
+  margin:15px;
+  
+  padding:20px;
+  border-radius: 10px ;
+  display: inline-block;
+  color:black;
+}
+.active{
+  background-color: seagreen;
+}
+h1{
+  text-align:center;
+  text-transform: uppercase;
+  color:rgba(255, 255, 255, 1) 
+   
+}
+section{
+  background-color:rgb(128,128,128);
+  display:block;
+  margin:15px;
+  width 100%;
+  
+  
+}
+
+h2{
+  font-weight:bold;
+  font-family: Time New Roman;
+  color:rgb(0,0,128);
+  text-transform:uppercase;
+}
+.left{
+  background-color: chartreuse;
+  width: 42%
+  float:left;
+  padding:1% 0;
+}
+.left img{
+  border: solid 3px black;
+  width: 75%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+img {
+    display: none;
+  }
+table{
+ margin: 0 auto;
+ table-layout: auto;
+ width: 800px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 18px;
+ line-height: 150%;
+ text-align: center;
+}
+th{
+ border-top-left-radius:7px;
+ border-top-right-radius:7px; 
+ background: linear-gradient(#d8e4a8,#2e3806);
+ color: #ffffff;
+}
+
+td{
+ color: #000000;
+ text-shadow: 3px 3px 4px rgb(219,112,68);
+
+}
+tr td{
+ background-color:#ebf8db;
+}
+
+tr{
+   opacity: 0.7;
+
+}
+tr.header{
+ opacity: 1;
+}
+
+tr:hover{
+ opacity: 1;
+}
+th:first-child, td:first-child{
+ text-align: left;
+}
+
+img{
+ display: block;
+ margin-bottom: 15px;
+ height: 150px;
+ width: 220px;
+ padding: 3px;
+ border:solid 2px #000000;
+}
+
+.left{
+ background: #767613;
+ margin: 0px 5px 5px 5px;
+ padding: 7px;
+ float: left;
+}
+
+.right {
+ display: inline-block;
+ width: 78%	;
+ float: left;
+}
+h2{
+ font-family: serif;
+ font-size: 150%;
+ color: #000000;
+}
+main{
+ display: inline-block;
+ margin:0px 5px 5px 5px;}
+body{
+ padding: 5px;
+ margin: 5px;}
+ 
+}
+table{
+
+}
