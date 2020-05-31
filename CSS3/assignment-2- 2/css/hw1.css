@@ -1,4 +1,5 @@
- @media (min-width: 701px) and (max-width: 1199px) {
+/*week 2 of css3 */
+@media (min-width: 701px) and (max-width: 1199px) {
     /* The body should have padding and margin */
     body {
       padding: 1%; 
